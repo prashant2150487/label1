@@ -1,79 +1,90 @@
 
 import "./App.css";
-import img1 from "./image/Rectangle 17995.png"
-import img2 from "./image/Rectangle 17996.png"
-import img3 from "./image/Rectangle 17997.png"
-import img4 from "./image/Rectangle 17998.png"
+import img1 from "./image/Group.png";
+import img2 from "./image/Group (1).png";
+import img3 from "./image/Group (1).png";
+import img4 from "./image/Group (3).png";
+import img5 from "./image/Group (4).png";
+import img6 from "./image/Group (5).png";
+import sideimg from "./image/Untitled-4 2.png"
 import { AiOutlineArrowRight } from 'react-icons/ai';
-import { AiOutlineArrowLeft } from 'react-icons/ai';
-import playIcon from "./image/Group.png"
-import youtube from "./image/youtubeicon.png"
 function App() {
   return (
     <div>
       <div className="container1">
-        <h2>Types of Partnerships</h2>
-        <div className="box">
-          <div className="first1">
-            <h3>CLOSED WHITE LABEL</h3>
-            <h5>
-              When you choose us for a closed white label partnership, we remain
-              behind the scenes. You and your team interact with the clients.
-              Your client would not know that we exist, and we work on their
-              project. Kushel Digi bill you, and you can bill your client.
-            </h5>
-          </div>
-          <div className="first1">
-            <h3>OPEN WHITE LABEL</h3>
-            <h5>
-              Under open white label partnership, we act as a part of your
-              in-house team and your clients would know that we exist. You
-              manage the project, take care of the client communication, and
-              guide us. We bill you and you may bill your end clients.
-            </h5>
-          </div>
-          <div className="first1">
-            <h3>REFERRAL</h3>
-            <h5>
-              When we join our client's project, become their full-time
-              employees. We participate in all development meetings and we do
-              everything we can to actively support product development.
-            </h5>
-          </div>
+        <div className="leftcontainer1">
+          <h3>Expert BigCommerce Consulting</h3>
+          <h2>Bigcommerce Development Service</h2>
+          <button className="team">Consult our BigCommerce Team <AiOutlineArrowRight id="fArrow" /></button>
+        </div>
+        <div className="rightcontainer1">
+          <div className="circle"></div>
+          <img src={sideimg} alt="img" width={300} className="rightimg1" />
         </div>
       </div>
-      {/* ******************************************************** */}
+      {/* ************************************ */}
       <div className="container2">
-        <h3>Appreciation From Clients</h3>
-        <div className="box1">
-          <AiOutlineArrowLeft className="leftArr" />
-          <div className="img_container">
-            <img src={playIcon} className="play_icon" />
-
-            <h5 className="you_tube">Watch on<img src={youtube} className="youtube_icon" /> Youtube</h5>
-
-            <img src={img1} className="img_L" alt="img" />
+        <h2>BIGCOMMERCE SERVICES OFFERED</h2>
+        <h3>
+          We develop BigCommerce stores that provide a unique and refined
+          experience to site visitors
+        </h3>
+        <h4>which results in better conversions and higher AOV.</h4>
+        <div className="box">
+          <div className="first1" id="new">
+            <img src={img1} className="startup" alt="img" />
+            <h3>Startup</h3>
+            <h5>
+              We can help you start up a BigCommerce store that is completely
+              SEO friendly, high on user experience, and easy to maintain.
+            </h5>
           </div>
-          <div className="img_container">
-            <img src={playIcon} className="play_icon" />
-            <h5 className="you_tube">Watch on<img src={youtube} className="youtube_icon" /> Youtube</h5>
-            <img src={img2} className="img_L" alt="img" />
+          <div className="first1">
+            <img src={img2} alt="img" />
+            <h3>Design</h3>
+            <h5>
+              Our BigCommerce design team has demonstrated its excellence in
+              designing custom BigCommerce themes with all the desired features
+              and capabilities
+            </h5>
           </div>
-          <div className="img_container">
-            <img src={playIcon} className="play_icon" />
-            <h5 className="you_tube">Watch on<img src={youtube} className="youtube_icon" /> Youtube</h5>
-            <img src={img3} className="img_L" alt="img" />
+          <div className="first1">
+            <img src={img3} alt="img" />
+            <h3>Migration</h3>
+            <h5>
+              We make migration to BigCommerce easy. We guarantee that no data
+              will be lost and that your SEO ranking will be back up in a short
+              time.
+            </h5>
           </div>
-          <div className="img_container">
-            <img src={playIcon} className="play_icon" />
-            <h5 className="you_tube">Watch on<img src={youtube} className="youtube_icon" /> Youtube</h5>
-            <img src={img4} className="img_L" alt="img" />
+          <div className="first1">
+            <img src={img4} alt="img" />
+            <h3>Programming</h3>
+            <h5>
+              If you need something that is out of the box we can help you
+              achieve the same with our BigCommerce expertise and knowledge
+            </h5>
           </div>
-          <AiOutlineArrowRight className="rightArr" />
+          <div className="first1">
+            <img src={img5} alt="img" />
+            <h3>Maintenance</h3>
+            <h5>
+              We maintain and manage several BigCommerce stores helping them
+              with their operations and scalability
+            </h5>
+          </div>
+          <div className="first1">
+            <img src={img6} alt="img" />
+            <h3>Customization</h3>
+            <h5>
+              Whether you are looking to migrate from blueprint to stencil or
+              are looking for some out of the box compliance checks or
+              customizations, we are here to serve you.
+            </h5>
+          </div>
         </div>
       </div>
-
-    </div >
+    </div>
   );
 }
 
