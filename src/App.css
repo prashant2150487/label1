@@ -3,16 +3,16 @@
   margin: 0;
   padding: 0;
 }
-.container1 {
+.paper1 {
   background-color: #085881;
   display: flex;
 }
-.leftcontainer1 {
+.leftpaper1 {
   padding: 5rem;
   /* background-color: #ccc; */
   width: 60%;
 }
-.rightcontainer1 {
+.rightpaper1 {
   width: 40%;
   margin-top: auto;
   margin-left: 4rem;
@@ -23,7 +23,6 @@
   background: #d9d9d9;
   position: absolute;
   z-index: 1;
-
   padding: 9rem;
   border-radius: 50%;
   margin-left: 3rem;
@@ -32,18 +31,19 @@
   position: relative;
   z-index: 2;
 }
-.leftcontainer1 h3 {
+.leftpaper1 h3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 24px;
+  font-size: 19px;
   line-height: 34px;
   color: #ffffff;
   max-width: 361px;
   left: 7.03%;
+  line-height: 35px;
 }
-.leftcontainer1 h2 {
+.leftpaper1 h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 44px;
-  /* line-height: 54px; */
+  font-size: 40px;
+  line-height: 45px;
   max-width: 430px;
   top: 6.25%;
   color: #ffffff;
@@ -53,124 +53,137 @@
   white-space: nowrap;
   padding: 1rem;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
+  display: flex;
 }
 #fArrow {
   /* padding-top: 7px; */
-  font-size: 20px;
+  font-size: 16px;
+  margin-top: 3px;
+  margin-left: 4px;
 }
 @media (max-width: 930px) {
-  .container1 {
+  .paper1 {
     flex-direction: column-reverse;
     justify-content: center;
   }
-  .rightcontainer1 {
+  .rightpaper1 {
     /* background-color: #202020; */
     align-items: center;
     margin-left: auto;
     width: 100%;
     padding-top: 2rem;
   }
-  .rightimg1{
+  .rightimg1 {
     width: 200px;
   }
-  .circle{
+  .circle {
     padding: 6.2rem;
   }
-  .leftcontainer1 {
+  .leftpaper1 {
     margin-left: auto;
     margin-right: auto;
     /* padding: 4px; */
-   
+
     width: auto;
     padding: 10px;
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
 }
-@media (max-width:353px){
-  .team{
+@media (max-width: 353px) {
+  .team {
     padding: 0.5rem;
     font-size: 15px;
   }
 }
 /* *********************************************** */
-.container2 {
-  background-color: aqua;
+.paper2 {
   background: #f7f7f7;
 }
-.container2 h2 {
-  /* min-width: 745px; */
+.paper2 h2 {
   align-items: center;
-  letter-spacing: 0.1rem;
+  line-height: 50px;
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
+  letter-spacing: 0.1px;
   color: #202020;
   opacity: 0.9;
-  padding-top: 6rem;
+  padding-top: 3rem;
+  font-style: normal;
 }
-.container2 h3 {
+.stores {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 19px;
   text-align: center;
   margin-top: 1rem;
   color: #404040;
-  line-height: 40px;
+  line-height: 35px;
+  font-style: normal;
 }
-.container2 h4 {
-  font-size: 22px;
+.paper2 h4 {
+  font-size: 20px;
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  line-height: 40px;
+  line-height: 35px;
   color: #404040;
+  font-style: normal;
 }
-.box {
+.paperbox {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
-#new {
+/* #new {
   background-color: #085881;
   color: #ffffff;
-}
-#new h3 {
+} */
+/* #new h3 {
   color: #ffffff;
 }
 #new h5 {
   color: #ffffff;
-}
+} */
 .first1 {
-  background-color: white;
+  background: white;
   height: 331px;
   border-radius: 15px;
   max-width: 350px;
   padding: 1rem;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   padding-bottom: 3rem;
   align-items: center;
   margin: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  cursor: pointer;
 }
 
 .first1 h3 {
-  font-size: 20px;
+  font-size: 19px;
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  /* color: black; */
   text-align: center;
   letter-spacing: 0.1px;
 }
 .first1 h5 {
   max-width: 400px;
-  font-size: 20px;
+  font-size: 17px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-  color: #ffffff;
+  /* color: #ffffff; */
   font-weight: 300;
-  /* margin-top: 1rem; */
-  color: #404040;
+  /* color: #404040; */
   margin-top: 1rem;
+}
+.startup {
+  width: 45px;
+  margin-bottom: 1rem;
+}
+.first1:hover {
+  background-color: #085881;
+  color: #ffffff;
 }
