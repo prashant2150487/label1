@@ -414,7 +414,7 @@
   flex: 1;
   background: #fff;
   margin: 1rem;
-  width: 400px;
+  max-width: 400px;
 }
 .slider .card .img {
   height: 250px;
